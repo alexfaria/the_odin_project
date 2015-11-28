@@ -1,5 +1,8 @@
 $(document).ready(function () {
-    var num = parseInt(prompt("Grid size: ", "10"), 10);
+    num = 0;
+    while (num > 128 || num < 1) {
+        var num = parseInt(prompt("Grid size: ", "10"), 10);
+    }
 
     var option = 1;
 
