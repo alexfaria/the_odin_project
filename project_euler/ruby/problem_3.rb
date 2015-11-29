@@ -1,4 +1,3 @@
-require 'prime'
 number = 600851475143
 i = 0
 largest = 1
